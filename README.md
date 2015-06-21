@@ -570,6 +570,7 @@ List of Variables:
 561 561                 angle(Z,gravityMean)
 
 List of Activites:
+
   labels         activities
 1      1            WALKING
 2      2   WALKING_UPSTAIRS
