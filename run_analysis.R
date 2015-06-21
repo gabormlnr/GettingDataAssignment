@@ -109,12 +109,14 @@ getBDstat <- function(maindir, trainingdir, testdir){
   statBD
 }
 
-##Run functions needed with the directories in which data is: (maindir, trainingdir, testdir) in this order
+##Run functions needed with the directories in which the data is: (maindir, trainingdir, testdir) in this order
 
+##Run to get tidy dataset
 getdata("C:/Users/gaborm/Desktop/Own/R/GettingData/Week3/UCI HAR Dataset", 
         "C:/Users/gaborm/Desktop/Own/R/GettingData/Week3/UCI HAR Dataset/train",
         "C:/Users/gaborm/Desktop/Own/R/GettingData/Week3/UCI HAR Dataset/test")
 
+##Run to get key statistics of each variables
 getBDstat("C:/Users/gaborm/Desktop/Own/R/GettingData/Week3/UCI HAR Dataset", 
         "C:/Users/gaborm/Desktop/Own/R/GettingData/Week3/UCI HAR Dataset/train",
         "C:/Users/gaborm/Desktop/Own/R/GettingData/Week3/UCI HAR Dataset/test")
